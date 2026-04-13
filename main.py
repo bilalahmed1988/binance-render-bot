@@ -5,8 +5,8 @@ import os
 app = Flask(__name__)
 
 # ⚠️ Use environment variables (IMPORTANT for security)
-API_KEY = os.getenv("nWxtTTxBlT4ULnLScbvFy6tYWddtdDHvkNGATIgdRtAhJGYRdsjWdSxKCk2kratL")
-API_SECRET = os.getenv("iTY5dUQrw5SxW8y0ipHnK6CS7RizmtXxOR9L9MHBNWQbBhZWn1BBcxY4dvIlCzZL")
+API_KEY = os.getenv("API_KEY")
+API_SECRET = os.getenv("API_SECRET")
 
 client = Client(API_KEY, API_SECRET)
 
